@@ -9,8 +9,9 @@ class RateCard extends StatefulWidget {
 }
 
 class _RateCardState extends State<RateCard> {
-  bool _yeshasBeenPressed = false;
+  bool _isActive = false;
   bool _nohasBeenPressed = false;
+
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -32,11 +33,12 @@ class _RateCardState extends State<RateCard> {
           ButtonBar(
             children: <Widget>[
               RaisedButton(
-                color: _yeshasBeenPressed ? Colors.green : Colors.white,
+                color: _isActive ? Colors.green : Colors.white,
                 child: const Text('YES'),
                 onPressed: () {
                   setState(() {
-                    _yeshasBeenPressed = true;
+                    _isActive = !_isActive;
+                    _nohasBeenPressed = false;
                   });
                 },
               ),
@@ -45,7 +47,8 @@ class _RateCardState extends State<RateCard> {
                 child: const Text('NO'),
                 onPressed: () {
                   setState(() {
-                    _nohasBeenPressed = true;
+                    _nohasBeenPressed = !_nohasBeenPressed;
+                    _isActive = false;
                   });
                 },
               ),
