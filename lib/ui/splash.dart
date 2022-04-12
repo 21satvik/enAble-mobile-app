@@ -77,7 +77,7 @@ class _SplashState extends State<Splash> {
             size: 120,
           ),
           Text(
-            'SIH RK762',
+            'MisMatch',
             style: Theme.of(context)
                 .textTheme
                 .headlineLarge
