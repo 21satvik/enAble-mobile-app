@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
+import 'package:ultron_5/screens/speech.dart';
 import 'package:ultron_5/widgets/utility/app_drawer.dart';
 
 import '../helpers/shared_prefs.dart';
@@ -52,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('App name'),
+        title: const Text('MisMatch'),
       ),
       drawer: AppDrawer(),
       body: Stack(
@@ -106,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             onPressed: () => Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (_) => const PrepareRideScreen())),
+                                    builder: (_) => PrepareRideScreen())),
                             style: ElevatedButton.styleFrom(
                                 padding: const EdgeInsets.all(20)),
                             child: Row(

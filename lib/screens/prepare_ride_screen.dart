@@ -62,7 +62,7 @@ class _PrepareRideScreenState extends State<PrepareRideScreen> {
         leading: IconButton(
             onPressed: () => Navigator.pop(context),
             icon: const Icon(Icons.arrow_back)),
-        title: const Text('ultron_5'),
+        title: const Text('Add Destination'),
       ),
       body: SafeArea(
         child: SingleChildScrollView(
