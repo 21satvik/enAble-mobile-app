@@ -59,11 +59,11 @@ We used, Flutter to provide the most user friendly experience to our mobile  app
 
 > Website Front Page
 
-<img src="https://github.com/AishwaryaPai20/ultron/blob/main/assets/images/w1.jpeg" width="900" height="400" />
+<img src="https://github.com/AishwaryaPai20/ultron/blob/main/assets/images/w2.jpeg" width="900" height="400" />
 
 > Authentication Page
 
-<img src="https://github.com/AishwaryaPai20/ultron/blob/main/assets/images/w2.jpeg" height="500" />
+<img src="https://github.com/AishwaryaPai20/ultron/blob/main/assets/images/w1.jpeg" height="500" />
 
 > Dashboard
 
