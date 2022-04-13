@@ -31,7 +31,7 @@ We used, Flutter to provide the most user friendly experience to our mobile  app
 
 <img src="https://github.com/AishwaryaPai20/ultron/blob/main/assets/videos/working.gif" width="900" height="500" />
 
-[Check out our Website Repository on Github]()
+[Check out our Website Repository on Github](https://github.com/some-earth11/ultron-5-demo)
 
 ## ScreenShots of Our App
 
@@ -63,7 +63,7 @@ We used, Flutter to provide the most user friendly experience to our mobile  app
 
 > Authentication Page
 
-<img src="https://github.com/AishwaryaPai20/ultron/blob/main/assets/images/1.jpeg" width="800" height="500" />
+<img src="https://github.com/AishwaryaPai20/ultron/blob/main/assets/images/w1.jpeg" height="500" />
 
 > Dashboard
 
