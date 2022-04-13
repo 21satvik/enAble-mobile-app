@@ -21,10 +21,10 @@ class _ReviewsScreenState extends State<ReviewsScreen> {
         child: Center(
           child: Column(
             children: <Widget>[
-              RateCard(question: 'Are facilities available there ?'),
-              RateCard(question: 'Were there any wheelchair available ?'),
-              RateCard(question: 'Are there ramps and lifts?'),
-              RateCard(question: 'Did you find the voice navigation useful ?'),
+              const RateCard(question: 'Are facilities available there ?'),
+              const RateCard(question: 'Were there any wheelchair available ?'),
+              const RateCard(question: 'Are there ramps and lifts?'),
+              const RateCard(question: 'Did you find the voice navigation useful ?'),
               const SizedBox(
                 width: 20,
                 height: 30,

@@ -53,30 +53,113 @@ class DestinationDataScreen extends StatelessWidget {
                     children: [
                       ListTile(
                         leading: Icon(Icons.book_online_outlined),
-                        title: Text('Braille Boards'),
-                        trailing:
-                            braille ? Icon(Icons.check) : Icon(Icons.close),
+                        title: const Text(
+                          'Braille Boards',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
+                        ),
+                        trailing: braille
+                            ? const Icon(
+                                Icons.check,
+                                color: Colors.green,
+                                size: 22,
+                              )
+                            : const Icon(
+                                Icons.close,
+                                color: Colors.red,
+                                size: 18,
+                              ),
                       ),
                       ListTile(
                         leading: Icon(Icons.accessible_forward_outlined),
-                        title: Text('WheelChairs'),
-                        trailing:
-                            wheelChair ? Icon(Icons.check) : Icon(Icons.close),
+                        title: Text(
+                          'WheelChairs',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
+                        ),
+                        trailing: wheelChair
+                            ? const Icon(
+                                Icons.check,
+                                color: Colors.green,
+                                size: 22,
+                              )
+                            : const Icon(
+                                Icons.close,
+                                color: Colors.red,
+                                size: 22,
+                              ),
                       ),
                       ListTile(
                         leading: Icon(Icons.ramp_right_rounded),
-                        title: Text('Ramps'),
-                        trailing: ramps ? Icon(Icons.check) : Icon(Icons.close),
+                        title: Text(
+                          'Ramps',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
+                        ),
+                        trailing: ramps
+                            ? const Icon(
+                                Icons.check,
+                                color: Colors.green,
+                                size: 22,
+                              )
+                            : const Icon(
+                                Icons.close,
+                                color: Colors.red,
+                                size: 22,
+                              ),
                       ),
                       ListTile(
                         leading: Icon(Icons.elevator_rounded),
-                        title: Text('Lift'),
-                        trailing: lift ? Icon(Icons.check) : Icon(Icons.close),
+                        title: Text(
+                          'Lift',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
+                        ),
+                        trailing: lift
+                            ? const Icon(
+                                Icons.check,
+                                color: Colors.green,
+                                size: 22,
+                              )
+                            : const Icon(
+                                Icons.close,
+                                color: Colors.red,
+                                size: 22,
+                              ),
                       ),
                       ListTile(
                         leading: Icon(Icons.accessible_forward_outlined),
-                        title: Text('ASL Qualified Staffs'),
-                        trailing: asl ? Icon(Icons.check) : Icon(Icons.close),
+                        title: Text(
+                          'ASL Qualified Staffs',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
+                        ),
+                        trailing: asl
+                            ? const Icon(
+                                Icons.check,
+                                color: Colors.green,
+                                size: 22,
+                              )
+                            : const Icon(
+                                Icons.close,
+                                color: Colors.red,
+                                size: 22,
+                              ),
                       ),
                     ],
                   ),
