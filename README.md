@@ -72,3 +72,7 @@ We used, Flutter to provide the most user friendly experience to our mobile  app
 > MapBox Integration
 
 <img src="https://github.com/AishwaryaPai20/ultron/blob/main/assets/images/w4.jpeg" height="500" />
+
+> Error Page
+
+<img src="https://github.com/AishwaryaPai20/ultron/blob/main/assets/images/w5.jpeg" height="500" />
