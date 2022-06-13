@@ -1,4 +1,4 @@
-# MisMatch App
+# enAble App
 An App widely accessible for storing and sharing information about buildings/offices/schools/marketplace etc which would be very helpful to persons with disabilities.
 
 ## About This Project
