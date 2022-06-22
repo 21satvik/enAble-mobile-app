@@ -22,21 +22,15 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Flutter action
-      - uses: subosito/flutter-action@v2.4.0
-        with:
-          flutter-version: '2.8.0'
-          channel: 'stable'
-      - name: Android checks
       - uses: actions/setup-java@v2
         with:
           distribution: 'zulu'
           java-version: '11'
-      - run: flutter --version
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '2.10.4'
+      - run: flutter version
       - run: flutter pub get
       - run: flutter test
       - run: flutter build apk
